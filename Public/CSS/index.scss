@@ -1,0 +1,144 @@
+$background_primario:rgb(109, 189, 255) ;
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0 1em;
+}
+.titulo{
+  background-color:$background_primario ;
+  margin-top: 1em;
+  padding: 1em;
+  color: #fff;
+}
+
+.titulo-tabla{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  
+  div{
+    display: inline-block;
+  }
+}
+header{
+  nav{
+    background-color: $background_primario ;
+    ul{
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: start;  
+      li{    
+        color: #fff;
+        display: inline-block;
+        list-style: none;
+        padding: 1em;
+        margin-left: 1em;
+        position: relative; 
+       details{
+        div{
+          position: absolute;
+          width: 250px;
+          p{
+           padding: 1em;
+            background-color:$background_primario ;
+          }:hover{
+            cursor: pointer;
+            background-color:$background_primario;
+          }
+        }
+       }
+      }
+      li:hover{
+        cursor: pointer;
+        background-color:rgb(62, 167, 253);
+      }
+    }
+  }
+}
+label{
+  display: inline-block;  
+  font-size: 1em;
+  font-weight:bold;
+  padding: .5em;
+  margin: auto auto;
+  
+}
+.input-form{
+  font-size: 1em;
+  padding: .5em;
+  font-size: 1em;
+  outline: rgb(103, 188, 245);
+  border: solid rgb(103, 188, 245) .1em;
+  margin: 1em 1em;
+  border-radius: 5px;
+}
+textarea{
+font-family: Arial, Helvetica, sans-serif;
+max-width: 20%;
+min-width:100%;
+}
+
+.btn{
+padding: .8em;
+border-radius: 5px;
+border: none;
+color: #fff;
+text-decoration: none;
+}
+.btn:hover{
+  cursor: pointer;
+  opacity: 0.7;
+}
+.btn-icon{
+  font-size: 1em;
+  font-weight: bold;
+}
+.btn-cancelar{
+  background-color: red;
+}
+.btn-aceptar{
+  background-color: green;
+}
+.btn-info{
+  background-color: rgb(52, 206, 245);
+}
+.cont-btn{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.a-link{
+  text-decoration: none;
+  color: #fff;
+}
+
+.lista-tabla{
+  width: 100%;
+  thead{
+    background-color: rgb(196, 224, 255);    
+    tr{
+      th{
+        padding: 0.5em 0;
+      }
+    }
+  }
+  tbody{
+    text-align: center;
+    tr{
+      td{
+        background-color:$background_primario;
+      }
+      }
+      
+      tr:hover{
+        cursor: pointer;
+        opacity: .9;
+    }
+  }
+}
+
+
+

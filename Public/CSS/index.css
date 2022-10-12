@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0 1em;
+}
+
+.titulo {
+  background-color: rgb(109, 189, 255);
+  margin-top: 1em;
+  padding: 1em;
+  color: #fff;
+}
+
+.titulo-tabla {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.titulo-tabla div {
+  display: inline-block;
+}
+
+header nav {
+  background-color: rgb(109, 189, 255);
+}
+header nav ul {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: start;
+}
+header nav ul li {
+  color: #fff;
+  display: inline-block;
+  list-style: none;
+  padding: 1em;
+  margin-left: 1em;
+  position: relative;
+}
+header nav ul li details div {
+  position: absolute;
+  width: 250px;
+}
+header nav ul li details div p {
+  padding: 1em;
+  background-color: rgb(109, 189, 255);
+}
+header nav ul li details div :hover {
+  cursor: pointer;
+  background-color: rgb(109, 189, 255);
+}
+header nav ul li:hover {
+  cursor: pointer;
+  background-color: rgb(62, 167, 253);
+}
+
+label {
+  display: inline-block;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 0.5em;
+  margin: auto auto;
+}
+
+.input-form {
+  font-size: 1em;
+  padding: 0.5em;
+  font-size: 1em;
+  outline: rgb(103, 188, 245);
+  border: solid rgb(103, 188, 245) 0.1em;
+  margin: 1em 1em;
+  border-radius: 5px;
+}
+
+textarea {
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 20%;
+  min-width: 100%;
+}
+
+.btn {
+  padding: 0.8em;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.btn-icon {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.btn-cancelar {
+  background-color: red;
+}
+
+.btn-aceptar {
+  background-color: green;
+}
+
+.btn-info {
+  background-color: rgb(52, 206, 245);
+}
+
+.cont-btn {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.a-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.lista-tabla {
+  width: 100%;
+}
+.lista-tabla thead {
+  background-color: rgb(196, 224, 255);
+}
+.lista-tabla thead tr th {
+  padding: 0.5em 0;
+}
+.lista-tabla tbody {
+  text-align: center;
+}
+.lista-tabla tbody tr td {
+  background-color: rgb(109, 189, 255);
+}
+.lista-tabla tbody tr:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}/*# sourceMappingURL=index.css.map */
